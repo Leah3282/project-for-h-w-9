@@ -17,6 +17,7 @@ app.use("/dddddddddd/user", require("./routes/RouteUser"))
 
 app.use("/api/user", require("./routes/RouteUser"))
 app.use("/api/posts", require("./routes/RoutePosts"))
+app.use("/api/posts", require("./routes/RoutePosts"))
 
 app.get('/',(req,res)=>{
         res.send("Hello world!!")
