@@ -12,6 +12,7 @@ app.use(express.json())
 app.use(express.static("public"))
 app.use("/bbb/user", require("./routes/RouteUser"))
 app.use("/aaaa/user", require("./routes/RouteUser"))
+app.use("/cccc/user", require("./routes/RouteUser"))
 
 app.use("/api/user", require("./routes/RouteUser"))
 app.use("/api/posts", require("./routes/RoutePosts"))
